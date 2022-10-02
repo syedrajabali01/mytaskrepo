@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+*{
+  font-family: Helvetica;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.status-bar{
+width: 375px;
+height: 66px;
+justify-content: space-between;
+backdrop-filter: blur(10px);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mytitle{
+  width: 350px;
+  
 }
+.maintitle{
+  font-weight: 700;
+  
+font-family: 'Helvetica';
+font-style: normal;
+font-size: 36px;
+line-height: 36px;
+/* or 100% */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+text-align: center;
+
+color: #240D57;
+  
 }
+.title-body{
+  width: 321px;
+height: 36px;
 
-.App-link {
-  color: #61dafb;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
+.myfullcard{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card-icon-border{
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+
+}
+.card-response{
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+text-align: center;
+  font-size: 15px;
+margin :10px;
+padding: 5px;
+padding-top: 20px;
+padding-bottom: 0px;
+  border-radius: 10px;
+
+}
+.mybtn-for-event{
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  width: 250px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: none;
+}
+.mycolor{
+  
+  color: #240D57;
+font-size: 25px;
+font-weight: bolder;
+
+}
+.mycard-title{
+  float: left;
+  margin: 10px;
+}
+.snapchat{
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
